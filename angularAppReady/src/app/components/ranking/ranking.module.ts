@@ -4,13 +4,16 @@ import { CommonModule } from '@angular/common';
 import { RankingRoutingModule } from './ranking-routing.module';
 import { RankingComponent} from './ranking.component';
 
+import { HttpClientModule } from '@angular/common/http'
+
 @NgModule({
   declarations: [
       RankingComponent
   ],
   imports: [
     CommonModule,
-    RankingRoutingModule
+    RankingRoutingModule,
+    HttpClientModule
   ]
 })
 export class RankingModule { }

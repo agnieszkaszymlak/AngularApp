@@ -1,9 +1,5 @@
-//import { Component, OnInit } from '@angular/core';
-//import { Router } from '@angular/router';
-
-
 import { Component} from '@angular/core';
-import { UsersService } from './users.service'
+//import { UsersService } from './users.service'
 
 @Component({
   selector: 'app-root',
@@ -11,6 +7,13 @@ import { UsersService } from './users.service'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  
+  constructor()
+  {}
+}
+
+
+/*export class AppComponent {
   title = 'angular-app';
   data:any=[]
   constructor(private user:UsersService)
@@ -20,4 +23,4 @@ export class AppComponent {
       this.data=Object.values(data)
     })
 }
-}
+}*/
