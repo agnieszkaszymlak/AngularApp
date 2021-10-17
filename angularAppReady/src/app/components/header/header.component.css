@@ -1,0 +1,23 @@
+nav{
+    background-color: skyblue;
+    position: sticky;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+}
+
+nav ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}

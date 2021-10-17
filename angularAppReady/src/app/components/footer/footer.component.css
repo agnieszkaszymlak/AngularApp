@@ -1,0 +1,23 @@
+#footer {
+    clear:both;
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+
+#footerName {
+    height: 50px;
+    text-align: left;
+    margin-left: 5px;
+    float: left;
+}
+
+#footerDate {
+    height: 50px;
+    text-align: right;
+    margin-right: 5px;
+    float: right;
+}
